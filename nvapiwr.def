@@ -1,0 +1,25 @@
+LIBRARY
+
+EXPORTS
+	NvAPI_Initialize
+	NvAPI_Unload
+	NvAPI_GetErrorMessage
+	NvAPI_GetInterfaceVersionString
+	NvAPI_GetDisplayDriverVersion
+	NvAPI_EnumNvidiaDisplayHandle
+	NvAPI_EnumNvidiaUnAttachedDisplayHandle
+	NvAPI_EnumPhysicalGPUs
+	NvAPI_GetAssociatedNvidiaDisplayHandle
+	NvAPI_GetPhysicalGPUsFromDisplay
+	NvAPI_SetRefreshRateOverride
+	NvAPI_GPU_GetThermalSettings
+	NvAPI_GPU_GetTachReading
+	NvAPI_DISP_GetAssociatedUnAttachedNvidiaDisplayHandle
+	NvAPI_SYS_GetChipSetInfo
+	NvAPI_SYS_GetLidAndDockInfo
+	NvAPI_SYS_GetDisplayIdFromGpuAndOutputId
+	NvAPI_SYS_GetGpuAndOutputIdFromDisplayId
+	NvAPI_I2CRead
+	NvAPI_I2CWrite
+
+	
